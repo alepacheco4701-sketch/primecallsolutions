@@ -1,14 +1,5 @@
+import App from "../components/App";
 
-{
-  "name": "callcenter-app",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "build": "next build"
-  },
-  "dependencies": {
-    "next": "14.0.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  }
+export default function Home() {
+  return <App />;
 }
